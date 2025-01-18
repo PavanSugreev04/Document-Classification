@@ -1,12 +1,12 @@
-# Document Classification with BERTopic and Streamlit
+<h1 align="center" id="title">Document Classifier</h1>
 
 ## Overview
 Document Classification with BERTopic and Streamlit is a project designed to automatically label documents based on the textual content present near key areas of interest. This repository demonstrates the development of a document classification system leveraging self-supervised learning with BERTopic and an interactive UI built using Streamlit.
 
-![Project Overview Image](path/to/image.png)
+![Project Overview Image](https://github.com/PavanSugreev04/Document-Classification/blob/main/UI.png)
 
 ## Project Highlights
-- **Self-Supervised Learning with BERTopic**: Utilize BERTopic, a state-of-the-art topic modeling algorithm, to group and classify documents based on semantic similarity.
+- **Self-Supervised Learning with BERTopic**: Utilize BERTopic, a topic modeling algorithm, to group and classify documents based on semantic similarity.
 - **Streamlit for Interactive UI**: Provide a user-friendly interface to upload documents, view classifications, and interact with the model in real-time.
 - **Flexibility and Adaptability**: Easily extend the system to handle new, unlabeled datasets without requiring extensive retraining.
 - **Efficient Document Labeling**: Automatically classify documents into relevant categories based on context, reducing manual effort.
@@ -40,7 +40,7 @@ Document Classification with BERTopic and Streamlit is a project designed to aut
 ## Usage
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/document-classification-bertopic.git
+   git clone https://github.com/PavanSugreev04/Document-Classification.git
    cd document-classification-bertopic
    ```
 2. **Install Dependencies**:
@@ -83,15 +83,4 @@ Document Classification with BERTopic and Streamlit is a project designed to aut
 - **Remedy**: Use grid search or automated tools to explore parameter configurations.
 
 ## Data Source
-Include details about your dataset (e.g., source, format, and preprocessing steps). If the data is proprietary, describe the type of data used without sharing sensitive information.
-
-## Future Work
-- Extend the system to include additional document formats.
-- Integrate more advanced OCR capabilities for image-based documents.
-- Enable online learning for real-time adaptation to new data.
-
-## Acknowledgments
-Special thanks to the contributors of BERTopic and Streamlit for their powerful tools that made this project possible.
-
-## License
-This project is licensed under the MIT License. See `LICENSE` for details.
+Kaggal News DataSet
